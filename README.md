@@ -1,14 +1,14 @@
 # random-server-mcp
 
-[\![Release](https://github.com/day0ops/random-server-mcp/actions/workflows/release.yml/badge.svg)](https://github.com/day0ops/random-server-mcp/actions/workflows/release.yml)
-[\![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[\![Image](https://img.shields.io/badge/registry-GAR-4285F4?logo=google-cloud)](https://console.cloud.google.com/artifacts/docker/field-engineering-apac/australia-southeast1/kasunt)
+[![Release](https://github.com/day0ops/random-server-mcp/actions/workflows/release.yml/badge.svg)](https://github.com/day0ops/random-server-mcp/actions/workflows/release.yml)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Image](https://img.shields.io/badge/registry-GAR-4285F4?logo=googlecloud)](https://console.cloud.google.com/artifacts/docker/field-engineering-apac/australia-southeast1/kasunt)
 
-MCP server for random number generation, built with [FastMCP](https://github.com/jlowin/fastmcp).
+MCP server exposing random number utilities, built with [FastMCP](https://github.com/jlowin/fastmcp).
 
 ## What it does
 
-Exposes random number generation tools over the Model Context Protocol (MCP), useful for demos and testing non-deterministic agent behaviour.
+Provides random number generation tools over the Model Context Protocol (MCP), allowing LLM agents to request random values, ranges, and sequences.
 
 ## Usage
 
